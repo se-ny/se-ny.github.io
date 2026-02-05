@@ -15,7 +15,8 @@ img.copy {
 
  function add(n1, n2)
  {
-
+a=parseInt(n1);
+b=parseInt(n2);
  m=n1+n2
  //alert(m); //4+5=9
   result=`${n1}+${n2}=${m}`;
@@ -29,11 +30,7 @@ img.copy {
  result=`${a}+${b}=${a+b}`;
  alert(result);
  }
-function pluse(){
-a= parseInt(4);
-b= parseInt(5);
- result=`${a}+${b}=${a+b}`
- }
+
  </script>
 </head>
 <body>
@@ -45,7 +42,7 @@ b= parseInt(5);
 <img src="images/picture.jpg" alt="은하">
 <img class="copy" src="images/picture.jpg" alt="은하">
 
-<button type="button" onclick="pluse('4','5');">테스트</button>
+<button type="button" onclick="add('4','5');">테스트</button>
  
 
 </body>
