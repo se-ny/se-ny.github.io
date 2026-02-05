@@ -31,8 +31,9 @@ b=parseInt(n2);
  alert(result);
  }
 function calculate(){
-console.log('계산을 시작합니다');
-
+//console.log('계산을 시작합니다');
+ console.log(document.getElementByld("n1").value);
+ console.log(document.getElementByld("n2").value);
 }
 
  </script>
@@ -45,8 +46,8 @@ console.log('계산을 시작합니다');
 <br>
 <img src="images/picture.jpg" alt="은하">
 <img class="copy" src="images/picture.jpg" alt="은하">
-숫자1 <input type="text" name="n1"><br><br>
-숫자2 <input type="text" name="n2"><br>
+숫자1 <input type="text" id="n1" name="n1"><br>
+숫자2 <input type="text" id="n2" name="n2"><br>
 <button type="button" onclick="calculate();">계산</button>
  
 
