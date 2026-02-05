@@ -36,10 +36,14 @@ a=document.getElementById("n1").value;
 b=document.getElementById("n2").value;
 a=parseInt(a)
 b=parseInt(b)
-exp= `${a}+${b}=${a+b}`
+c=a+b 
+exp= `${a}+${b}=${c}`
 console.log(exp)
+alert(exp);
+document.getElementById("n3").value=c
 }
 
+  
  </script>
 </head>
 <body>
@@ -50,8 +54,9 @@ console.log(exp)
 <br>
 <img src="images/picture.jpg" alt="은하">
 <img class="copy" src="images/picture.jpg" alt="은하">
-숫자1 <input type="text" id="n1" name="n1"><br>
-숫자2 <input type="text" id="n2" name="n2"><br>
+숫자1 <input type="text" id="n1" name="n1">
+숫자2 <input type="text" id="n2" name="n2">
+숫자3 <input type="text" id="n3" name="n3"><br>
 <button type="button" onclick="calculate();">계산</button>
  
 
