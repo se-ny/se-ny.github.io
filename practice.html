@@ -52,6 +52,19 @@ table, th, td {
      cursor: pointer;
    }
   </style>
+  <script>
+function check_form()
+{
+//email="hello@abc.com";
+email= document.getElementByld('email').value;
+if(!email.includes('.'))
+{
+alert('이메일 주소를 다시 확인해주세요');
+} else {
+alert('이메일 주소는 정상입니다');
+}
+}
+</script>
 <table>
 <tr><th>이름</th><th>나이</th></tr>
 <tr><td>변우석</td><td>25</td></tr>
@@ -170,18 +183,7 @@ table, th, td {
 
  <button type="submit">전송하기</button>
 </form>
-<script>
-function check_form()
-{
-email="hello@abc.com";
-if(!email.includes('.'))
-{
-alert('이메일 주소를 다시 확인해주세요');
-} else {
-alert('이메일 주소는 정상입니다');
-}
-}
-</script>
+
 <button type="button" onclick="check_form()">전송하기</button>
 
   
