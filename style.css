@@ -1,5 +1,4 @@
- <style>
-  h2{text-align:center;}
+h2{text-align:center;}
   table {
   width: 100%;
   border-collapse: collapse; 
@@ -19,4 +18,4 @@ th, td {
 .sun { color: red; }   
 .sat { color: blue; }
   small{font-size:0.7em;}
-    </style>
+ 
