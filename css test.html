@@ -13,11 +13,14 @@ h1{
   margin-bottom: 20px;
   border-bottom:5px double white;
 }
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
 .label01, .label02{
   border:2px solid black;
-  color: black;
   padding: 5px 15px;
-  display: inline-block;
   margin: 5px;
 }
 .label01
@@ -25,17 +28,17 @@ h1{
 }
 .label02
   {
-  background-color:blue;
-  color:white;
+  background-color:blue; color:white;
   }
   body{ text-align:center;}
 </style>
 </head>
 <body>
 <h1> Fireboy and Watergirl </h1>
-<p>
-  <span class="label01"> Game Clear</span>
-  <span class="label02">Game Over</span>
-</p>
+<div>
+  <div class="container">
+  <div class="label01"> Game Clear</div>
+  <div class="label02">Game Over</div>
+</div>
 </body>
 </html>
