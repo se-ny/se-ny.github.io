@@ -8,7 +8,7 @@
     a[href*="github"]{background-color:skyblue;}
     a[href$="abc.com"]{background-color:pink;}
 
-    div>div>a {color:blue;}
+    div>div>a {color:blue; background-color:red}
 
     nav a:nth-child(1) {background-color:red;}
     nav a:nth-child(2) {background-color:orange;}
@@ -17,6 +17,9 @@
 
     nav+a {background-color: blue;}
     p+a {background-color:purple;}
+
+    input[name="uid"]:focus{
+      outline:2px solid blue;}
   </style>
 </head>
 <body>
@@ -40,5 +43,8 @@
   </p>
   <a>Contact</a>
 </div>
+  <div>
+    아이디<input type="text" name"uid">
+  </div>
 </body>
 </html>
