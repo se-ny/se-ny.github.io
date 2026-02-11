@@ -3,12 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <title> 02.11</title>
+  <style>
+    a[href^=http] {background-color:yellow;}
+    a[href*=github]{background-color:blue]
+    a[href$=abc.com]{background-color:pink}
+  </style>
 </head>
 <body>
 <ul>
-<li><a href="http://google.com" style="color:yellow;">Google</a></li>
-<li><a href="http://github.com" style="color:blue;">Github</a></li>
-<li><a href="http://abc.com" style="color: pink;">ABC News network</a></li>
+<li><a href="http://google.com">Google</a></li>
+<li><a href="http://github.com">Github</a></li>
+<li><a href="http://abc.com">ABC News network</a></li>
 </ul>
 </body>
 </html>
