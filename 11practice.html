@@ -20,6 +20,13 @@
 
     input[name="uid"]:focus{
       outline:2px solid blue;}
+
+   a::before{
+     content:"👉"; opacity: 0;
+   }
+   a::after{
+     content:"👈"; opacity: 0;
+   }
   </style>
 </head>
 <body>
@@ -46,5 +53,7 @@
   <div>
     아이디<input type="text" name="uid">
   </div>
+  a::before{content:"👉";opacity:0;}
+  a::after{content:"👈"; opacity: 0;}
 </body>
 </html>
