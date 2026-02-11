@@ -36,9 +36,11 @@
 
     .flex-center{
       display:flex;
-      justify-content:center;
+      flex-direction: row;
+      justify-content:space-between;
       align-items:center;
-      min-height:100vh;
+      flex-wrap: wrap;
+      gap:20px
     }
     .box{
       width:200px;
@@ -76,6 +78,8 @@
 
   <div class="flex-center">
   <div class="image-box">/div>
+  <div class="box"></div>
+  <div class="box"></div>
   <div class="box"></div>
 </div>
 </body>
