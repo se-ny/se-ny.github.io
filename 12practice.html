@@ -6,18 +6,36 @@
   <style>
     .container{
     display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-   flex-wrap: wrap;
-   gap:20px;
-   width: 100%;
+    flex-direction: column;
+    height: 100vh;
    }
+    header, footer{
+      height: 60px;
+      background-color: #aaa
+    }
+    .main-content{
+      display: flex;
+      dlex-grow:1;
+    }
+    nav, aside{
+      flex-basis:200px;
+      background-color: #ddd;
+    }
+    section{
+      flex-grow: 1;
+      background-color: #fff;
+    }
   </style>
 </head>
 <body>
   <div class="container">
+    <header>상단</header>
+  <div class="main-content">
+    <nav>왼쪽 메뉴</nav>
+    <section>가운데 본문</section>
+    <aside>오른쪽 메뉴</aside>
   </div>
-  
+  <footer>하단</footer>
+  </div>
 </body>
 </html>
