@@ -13,23 +13,30 @@
     display:flex;
     flex-direction: column;
     height: 100vh;
+      gap: 10px;
+      padding: 10px
    }
     header, footer{
       height: 100px;
       background-color: #aaa
+      border: 2px solid #777
     }
     .main-content{
       display: flex;
       flex-grow:1;
+      gap: 10px;
     }
     nav, aside{
       flex-basis:200px;
       background-color: #ddd;
+      border: 2px dashed #aaa
     }
     section{
       flex-grow: 1;
       background-color: #fff;
+      border: 2px solid #333
     }
+ 
   </style>
 </head>
 <body>
