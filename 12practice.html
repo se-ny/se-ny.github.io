@@ -37,8 +37,11 @@
       flex-grow: 1;
       background-color: #fff;
       border: 2px solid #333;
-      padding: 20px;
+      padding: 0;
     }
+
+
+
    header {
   height: 100px;
   background-image: url('images/picture.jpg');
@@ -61,8 +64,12 @@
   <div class="container">
     <header>상단</header>
   <div class="main-content">
-    <nav>왼쪽 메뉴</nav>
-    <section>가운데 본문</section>
+    <nav>
+      <a href="https://www.google.com" target="main-frame">페이지1</a>
+      </nav>
+    <section>
+      <iframe name="main-frame" src="11practice.html"</iframe>
+      </section>
     <aside>오른쪽 메뉴</aside>
   </div>
   <footer>하단</footer>
